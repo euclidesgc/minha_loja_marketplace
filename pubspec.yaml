@@ -30,10 +30,10 @@ dependencies:
   flutter:
     sdk: flutter
 
-  external_dependencies:
-    path: "../commons/external_dependencies"
   core:
-    path: "../core"
+    git:
+      url: https://github.com/euclidesgc/core.git
+      ref: v1.0.0
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
